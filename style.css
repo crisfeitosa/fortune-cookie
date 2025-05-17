@@ -10,7 +10,7 @@
 
 body {
   font-size: 1.6rem;
-  height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
   animation: gradient 10s ease infinite;
   background-size: 200% 200%;
@@ -19,7 +19,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  padding: 0 2rem;
+  padding: 2rem;
 }
 
 body, button {
