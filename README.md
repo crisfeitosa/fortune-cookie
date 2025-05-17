@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O jogo Biscoito da Sorte, no qual o usuário, a partir de um clique, abre um biscoito com a sua sorte do dia. 
+O jogo Biscoito da Sorte, no qual o usuário, a partir de um clique ou na tecla Enter, abre um biscoito com a sua sorte do dia. 
 <br/>
 
 ## 🔖 Layout
