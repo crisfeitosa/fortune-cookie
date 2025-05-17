@@ -3,6 +3,7 @@ const screenTwo = document.querySelector('.screenTwo')
 const btnCookie = document.querySelector('.btnCookie')
 const btnReset = document.querySelector('.btnReset')
 const phraseOpenedCookie = document.querySelector('.phraseOpenedCookie')
+
 const phrasesList = [
   "A vida trará coisas boas se tiver paciência.",
   "Não compense na ira o que lhe falta na razão.",
@@ -28,6 +29,12 @@ const phrasesList = [
 
 btnCookie.addEventListener('click', showPhraseOpenedCookie)
 btnReset.addEventListener('click', handleToggle)
+
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'Enter' && screenOne.classList.contains('hide') === false) {
+    showPhraseOpenedCookie()
+  }
+})
 
 function showPhraseOpenedCookie() {
   handleToggle()
